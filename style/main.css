@@ -1,0 +1,649 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 12%;
+    background-color: whitesmoke;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.nav-content{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 12%;
+}
+.nav-logo img{
+    height: 2.5rem;
+}
+select{
+    height: 2rem;
+    width: 5.5rem;
+    margin: 8px;
+    font-size: 1rem;
+    font-family: arial;
+    border: none;
+    background-color: transparent;
+}
+.nav-button{
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    border-radius: 40px;
+    background-color: rgb(69, 132, 226);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.ri-menu-line{
+    display: none;
+}
+
+.first{
+    display: flex;
+    columns: 50% 50%;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 10% auto;
+}
+.crypto h2{
+    font-size: 2.6rem;
+    margin-bottom: 5%;
+    font-weight: 800;
+    margin-top: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.crypto p{
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+}
+.first-button{
+    width: 13rem;
+    height: 3.5rem;
+    font-size: 1.2rem;
+    border-radius: 40px;
+    background-color: rgb(69, 132, 226);
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    border: none;
+    cursor: pointer;
+}
+.crypto .p2{
+    position: relative;
+    text-align: right;
+    font-size: 0.9rem;
+}
+.first-image img{
+    width: 100%;
+    height: 90%;
+}
+
+.second{
+    display: flex;
+    columns: 50% 50%;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 5% auto;
+}
+.buy h3{
+    font-size: 1.3rem;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: 20%;
+}
+.buy p{
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.second-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.third{
+    display: flex;
+    columns: 50% 50%;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 5% auto;
+}
+.third-image img{
+    width: 100%;
+    height: 100%;
+}
+.explore h3{
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: 20%;
+}
+.explore p{
+    font-size: 1.2rem;
+    font-family: 'Cambria, Cochin, Georgia, Times, ';
+}
+
+.forth{
+    display: flex;
+    columns: 50% 50%;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 5% auto;
+}
+.own h3{
+    font-size: 1.3rem;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: 20%;
+}
+.own p{
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.forth-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.black{
+    width: 100%;
+    height: auto;
+    background-color: rgb(46, 46, 46);
+    display: grid;
+    padding-top: 2%;
+}
+.black .image{
+    margin: 0 auto;
+}
+.get-started{
+    margin: 20px auto;
+    text-align: center;
+}
+.get-started h3{
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 20px;
+}
+.black-button{
+    width: 15rem;
+    height: 3.5rem;
+    font-size: 0.9rem;
+    border-radius: 40px;
+    background-color: rgb(69, 132, 226);
+    color: white;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.video{
+    width: 100%;
+    height: auto;
+    display: grid;
+}
+.video h3{
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 6% 0 2%;
+}
+.video iframe{
+    position: relative;
+    margin: 0 auto 2%;
+    border-radius: 20px;
+}
+
+.sixth-sec{
+    display: grid;
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    padding-top: 10%;
+}
+.sixth-sec .text{
+    text-align: center;
+}
+.sixth-sec .text h3{
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.sixth-sec .text p{
+    font-size: 1.2rem;
+    margin-bottom: 3%;
+}
+
+.multi-images{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto 3%;
+}
+.multi-images img{
+    width: 16rem;
+}
+
+.seventh-sec{
+    display: grid;
+    width: 100%;
+    height: auto;
+    background-color: rgb(51, 51, 51);
+    padding-top: 3%;
+}
+.seventh-sec h3{
+    font-size: 1.4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.seventh-sec p{
+    font-size: 0.85rem;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-bottom: 3%;
+}
+.seventh-sec a{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 3%;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(60, 60, 235);
+}
+
+.eight-sec{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: grey;
+}
+.eight-sec div{
+    display: flex;
+    width: 60%;
+    height: auto;
+    margin: 3% auto 3%;
+}
+.eight-sec img{
+    height: 25rem; 
+}
+.eight-sec div .text{
+    display: grid;
+    height: 10%;
+    margin: auto;
+}
+.eight-sec div .text h3{
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-bottom: 7%;
+}
+.eight-sec div .text .shop{
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    color: white;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.nineth-sec{
+    display: grid;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.nineth-sec h2{
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5% 0 6px;
+}
+.nineth-sec p{
+    font-size: 1.1rem;
+    font-family: 'Cambria, Cochin, Georgia, Times, Times New Roman', serif;
+}
+.nineth-sec button{
+    width: 6rem;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 40px;
+    background-color: rgb(69, 132, 226);
+    color: white;
+    margin: 2% auto 3%;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    padding-top: 5%;
+}
+.summary{
+    display: grid;
+    width: 58%;
+    height: auto;
+    margin: 0 auto;
+}
+.summary img{
+    height: 2.3rem;
+    margin-bottom: 5%;
+}
+.details{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+.details h2{
+    font-size: 1.2rem;
+    font-family: arial;
+    font-weight: lighter;
+    color: rgb(246, 133, 27);
+    margin-bottom: 5%;
+}
+.details div li{
+    margin: 10% 0 5%;
+    list-style-type: none;
+    font-size: 0.8rem;
+    font-family: 'Tahoma, Geneva, Verdana, sans-serif';
+}
+.details div li a{
+    text-decoration: none;
+    color: black;
+}
+.details div li a:hover{
+    color: rgb(60, 60, 235);
+}
+.summary p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    margin-bottom: 7%;
+}
+button:hover{
+    background-color: rgb(65, 65, 296);
+}
+
+@media screen and (max-width: 1024px) {
+    nav{
+        height: 9%;
+    }
+    .nav-content{
+        justify-content: space-between;
+        width: 90%;
+    }
+    .nav-logo img{
+        height: 2.6rem;
+    }
+    select{
+        height: 1.8rem;
+        width: 6rem;
+        margin: 5px;
+        font-size: 1rem;
+    }
+    .nav-button{
+        width: 9rem;
+        height: 2.5rem;
+        font-size: 1rem;
+    }
+    .ri-menu-line{
+        display: none;
+    }
+
+    .first{
+        width: 90%;
+        margin: 13% auto;
+    }
+    .crypto h2{
+        font-size: 2.5rem;
+    }
+    .crypto p{
+        font-size: 1.3rem;
+    }
+    .first-image img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .second{
+        width: 100%;
+    }
+    .buy p{
+        font-size: 1.4rem;
+    }
+    .second-image img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .third{
+        width: 100%;
+        justify-content: start;
+        margin-left: 3%;
+    }
+    .third-image img{
+        width: 95%;
+        height: 95%;
+    }
+    .explore h3{
+        font-size: 1.5rem;
+        margin-top: 15%;
+    }
+    .explore p{
+        font-size: 1.3rem;
+        margin-top: 5%;
+    }
+
+    .forth{
+        width: 90%;
+    }
+    .own p{
+        font-size: 1.2rem;
+    }
+    .forth-image img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .black{
+        width: 100%;
+    }
+
+    .video{
+        width: 100%;
+    }
+    .video iframe{
+        width: 90%;
+    }
+
+    .sixth-sec{
+        width: 100%;
+    }
+    .multi-images{
+        width: 90%;
+        margin: 0 auto 10%;
+    }
+    .multi-images img{
+        width: 14rem;
+    }
+
+    .seventh-sec{
+        width: 100%;
+    }
+
+    .eight-sec{
+        width: 100%;
+    }
+    .eight-sec div{
+        width: 80%;
+    }
+
+    .nineth-sec{
+        width: 100%;
+    }
+
+    footer{
+        width: 100%;
+    }
+    .summary{
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-info{
+        display: none;
+    }
+    nav{
+        width: 100%;
+        height: auto;
+        position: sticky;
+    }
+    .nav-logo img{
+        width: 200px;
+        height: 4rem;
+    }
+
+    .first{
+        width: 100%;
+        margin: 15% auto;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 0;
+    }
+    .crypto h2{
+        font-size: 2.5rem;
+        margin-top: 0;
+    }
+    .crypto p{
+        font-size: 1.3rem;
+    }
+    .crypto .p2{
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .second{
+        width: 100%;
+        margin: 15% auto;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 0;
+    }
+    .buy h3{
+        font-size: 1.3rem;
+        margin-top: 0;
+        margin-bottom: 3%;
+    }
+    .buy p{
+        font-size: 1.1rem;
+    }
+    .second-image img{
+        width: 70%;
+        height: 70%;
+        margin-top: 10%;
+    }
+
+     .third{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+    .third-image img{
+        width: 75%;
+        height: 75%;
+        margin-top: 10%;
+    }
+    .explore h3{
+        margin-top: 5%;
+    }
+    .explore p{
+        margin-top: 3%;
+    }
+
+    .forth{
+        width: 100%;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 0;
+    }
+    .own h3{
+        margin-top: 0;
+    }
+    .own p{
+        font-size: 1.2rem;
+        margin-bottom: 10%;
+    }
+    .forth-image img{
+        width: 80%;
+        height: 80%;
+        margin-bottom: 0;
+    }
+
+    .get-started h3{
+        font-size: 2.5rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .eight-sec{
+        width: 100%;
+        height: auto;
+        padding-bottom: 60px;
+    }
+    .eight-sec div{
+        width: 80%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .eight-sec img{
+        height: 35rem; 
+    }
+    .eight-sec div .text h3{
+        font-size: 2.3rem;
+        margin-bottom: 7%;
+    }
+    .eight-sec div .text .shop{
+        justify-self: center;
+    }
+
+    .summary{
+        width: 80%;
+    }
+    .details{
+        flex-wrap: wrap;
+        width: 90%;
+        height: auto;
+    }
+    .details h2{
+        font-size: 1rem;
+        margin-top: 2%;
+    }
+    .summary p{
+        margin: 5% 0 10%;
+    }
+}
